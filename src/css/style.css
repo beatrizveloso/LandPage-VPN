@@ -1,0 +1,84 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300..900;1,300..900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header {
+    width: 100%;
+    height: 80px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+p {
+    font-family: "Rubik", sans-serif;
+    font-size: 16px;
+    font-weight: 400px;
+    color: #4F5665;
+}
+
+.sign-in button {
+    font-family: "Rubik", sans-serif;
+    font-size: 16px;
+    font-weight: 600;
+    border: none;
+    background-color: transparent;
+}
+
+.sign-up button {
+    font-family: "Rubik", sans-serif;
+    font-size: 16px;
+    font-weight: 500;
+    color: #F53855;
+    border-radius: 40px;
+    width: 150px;
+    height: 45px;
+    border: 1.5px solid #F53855;
+    background-color: transparent;
+}
+
+.sign-up button:hover {
+    background-color: #ecbebe;
+    transition: 0.5s;
+}
+
+h1 {
+    font-family: "Rubik", sans-serif;
+    font-size: 50px;
+    font-weight: 500;
+}
+
+main {
+    width: 100%;
+    height: 500px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.text {
+    height: 300px;
+    display: flex; 
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+main button {
+    width: 250px;
+    height: 60px;
+    border-radius: 10px;
+    background-color: #F53838;
+    border: none;
+    box-shadow: 5px 15px 15px #f0a7a7;
+    color: white;
+    font-size: 16px;
+    font-weight: 600;
+}
+
+main img {
+    width: 520px;
+}
