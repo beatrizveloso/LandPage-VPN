@@ -82,3 +82,47 @@ main button {
 main img {
     width: 520px;
 }
+
+.align-icons {
+    height: 300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.icons {
+    width: 1020px;
+    height: 200px;
+    background-color: #fdfdfd;
+    border: 1px solid rgb(225, 225, 225);
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    border-radius: 10px;
+    box-shadow: 5px 15px 15px #e5dfdf;
+
+}
+
+.icons h1 {
+    font-family: "Rubik", sans-serif;
+    font-size: 25px;
+    font-weight: 500;
+}
+
+.icon-1,
+.icon-2,
+.icon-3 {
+    display: flex;
+    justify-content: space-between;
+}
+
+.icon-1 img,
+.icon-2 img,
+.icon-3 img{
+    margin-right: 30px;
+}
+
+.linha-vertical {
+    height: 110px;
+    border-left: 2px solid #EEEFF2;
+  }
