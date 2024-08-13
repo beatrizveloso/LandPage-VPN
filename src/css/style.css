@@ -307,3 +307,33 @@ h2 {
     background-color: #F53838;
     box-shadow: 5px 10px 10px #ecbebe;
 }
+
+.huge {
+    width: 100%;
+    height: 850px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.huge-align {
+    flex-direction: column;
+    text-align: center;
+}
+
+.huge-align img{
+    padding-top: 30px;
+}
+
+.huge-align p{
+    padding-top: 20px;
+}
+
+.streaming {
+    width: 100%;
+    height: 150px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
