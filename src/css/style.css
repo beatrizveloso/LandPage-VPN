@@ -326,7 +326,8 @@ h2 {
     padding-top: 30px;
 }
 
-.huge-align p{
+.huge-align p,
+.trusted-align p{
     padding-top: 20px;
 }
 
@@ -336,4 +337,45 @@ h2 {
     display: flex;
     justify-content: center;
     align-items: center;
+}
+
+.trusted {
+    width: 100%;
+    height: 630px;
+    margin-top: 170px;
+
+}
+
+.trusted-align {
+    flex-direction: column;
+    text-align: center;
+}
+
+.review {
+    width: 100%;
+    height: 350px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.review img {
+    width: 450px;
+    height: 250px;
+}
+
+.botões {
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.setinhas {
+    display: flex;
+    gap: 20px;
+}
+
+.setinhas img{
+    width: 60px;
 }
