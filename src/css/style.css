@@ -394,6 +394,9 @@ footer {
     align-items: center;
 }
 
+.c-4 p{
+    color: #f8f8f8;
+}
 footer p {
     font-size: 18px;
     font-weight: 400;
